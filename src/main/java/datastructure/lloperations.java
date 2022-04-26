@@ -66,7 +66,9 @@ public class lloperations {
 	public void insertAtMiddle(int mid,int pos)
 	{
 		Node NewNode=new Node(mid);
-		Node temp,temp1,temp2;
+		Node temp;
+		Node temp1;
+		Node temp2;
 		int count=0;
 		if(head==null)
 		{
