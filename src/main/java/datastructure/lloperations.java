@@ -190,7 +190,6 @@ public class lloperations {
 	
 	public void search(int val) {
 		Node temp;
-		int count=0;
 		boolean flag=false;
 		if(head==null)
 		{
